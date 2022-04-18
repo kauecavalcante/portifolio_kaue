@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Portifolio</title>
+</head>
+<body>
+    <header class="profile container">
+
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile_container grid">
+            <div class="profile_data">
+                <div class="profile_border">
+                    <div class="profile_perfil">
+                        <img src="eu.png" alt="perfil">
+                    </div>
+                </div>
+
+                <h2 class="profile_name">Kauê Cavalcante</h2>
+                <h3 class="profile_profession">Desenvolvedor Web</h3>
+
+                <ul class="profile_social">
+                    <a href="https://www.instagram.com/kauecavalcantee/" target="_blank" class="profile_social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="mailto:kauecavalcante4@gmail.com" target="_blank" class="profile_social-link">
+                        <i class="ri-mail-line"></i>
+                    </a>
+                    <a href="https://github.com/kauecavalcante" target="_blank" class="profile_social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile_info grid">
+                <div class="profile_info-group">
+                    <h3 class="profile_info-number">3</h3>
+                    <p class="profile_info-description">Months of <br> work</p>
+                </div>
+                <div class="profile_info-group">
+                    <h3 class="profile_info-number">+10</h3>
+                    <p class="profile_info-description">Completed <br> projects</p>
+                </div>
+                
+            </div>
+
+            <div class="profile_buttons">
+                
+
+                <div class="profile_buttons-small">
+                    <a href="https://wa.me/qr/THWB3UWNEW4EC1" target="_blank" class="button button_small button_gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="mailto:kauecavalcante4@gmail.com" target="_blank" class="button button_small button_gray">
+                        <i class="ri-mail-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="filters container">
+            <ul class="filters_content">
+                <button class="filters_button filter-tab-active"  data-target="#projects">
+                  Projects
+                </button>
+
+                <button class="filters_button" data-target="#skills">
+                    Skills
+                </button>
+            </ul>
+
+            <div class="filters_sections">
+                <div class="projects_content grid filters__active" data-content id="projects">
+                   <article class="projects_card">
+                       <img src="img/project1.jpg" alt="" class="projects_img">
+
+                       <div class="projects_modal">
+                           <div>
+                               <span class="projects_subtitle">Web</span>
+                               <h3 class="projects_title">Portifolio Website</h3>
+                               <a href="https://kauecavalcante.github.io/responsividade/" target="_blank" class="projects_button button button_small">
+                                <i class="ri-link"></i>
+                               </a>
+                           </div>
+                       </div>
+                   </article>
+                   <article class="projects_card">
+                     <img src="img/project2.jpg" alt="" class="projects_img">
+
+                     <div class="projects_modal">
+                        <div>
+                            <span class="projects_subtitle">Web</span>
+                            <h3 class="projects_title">Progress Website</h3>
+                            <a href="https://kauecavalcante.github.io/circle/circle2.html" target="_blank" class="projects_button button button_small">
+                             <i class="ri-link"></i>
+                            </a>
+                        </div>
+                     </div>
+                </article>
+                <article class="projects_card">
+                    <img src="img/project3.jpg" alt="" class="projects_img">
+
+                    <div class="projects_modal">
+                        <div>
+                            <span class="projects_subtitle">Movil</span>
+                            <h3 class="projects_title">Responsive Menu</h3>
+                            <a href="https://kauecavalcante.github.io/header-responsivo/" target="_blank" class="projects_button button button_small">
+                             <i class="ri-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="projects_card">
+                    <img src="img/project4.jpg" alt="" class="projects_img">
+
+                    <div class="projects_modal">
+                        <div>
+                            <span class="projects_subtitle">Design</span>
+                            <h3 class="projects_title">Spotify Clone</h3>
+                            <a href="https://kauecavalcante.github.io/clone-spotify/" target="_blank" class="projects_button button button_small">
+                             <i class="ri-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                </div>
+
+                <div class="skills_content grid" data-content id="skills">
+                     <div class="skills_area">
+                         <h3 class="skills_title">Front developer</h3>
+                         <div class="skills_box">
+                             <div class="skills_group">
+                                 <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills_name">HTML</h3>
+                                        <span class="skills_level">Advanced</span>
+                                    </div>
+                                 </div>
+
+                                 <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills_name">CSS</h3>
+                                        <span class="skills_level">Advanced</span>
+                                    </div>
+                                 </div>
+
+                                 <div class="skills_data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills_name">JavaScript</h3>
+                                        <span class="skills_level">Basic</span>
+                                    </div>
+                                 </div>
+                             </div>
+                             <div class="skills_group">
+                               
+
+                                <div class="skills_data">
+                                   <i class="ri-checkbox-circle-line"></i>
+
+                                   <div>
+                                       <h3 class="skills_name">Bootstrap</h3>
+                                       <span class="skills_level">Intermediate</span>
+                                   </div>
+                                </div>
+
+                                <div class="skills_data">
+                                   <i class="ri-checkbox-circle-line"></i>
+
+                                   <div>
+                                       <h3 class="skills_name">Git</h3>
+                                       <span class="skills_level">Intermediate</span>
+                                   </div>
+                                </div>
+                            </div>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <span class="footer_copy">
+            &#169; Bidimcode. All rights reserved <br>
+            Developed by Kauê Cavalcante 
+        </span>
+    </footer>
+    <script src="assets/scrollreveal.min.js"></script>
+    <script src="assets/js.js"></script>
+</body>
+</html>
